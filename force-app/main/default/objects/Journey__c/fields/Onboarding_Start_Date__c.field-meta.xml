@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Onboarding_Start_Date__c</fullName>
     <defaultValue>TODAY()</defaultValue>
+    <description>This represents the date that each candidate is onboarded to their role at Mainlydigital.</description>
     <externalId>false</externalId>
     <label>Onboarding Start Date</label>
     <required>true</required>

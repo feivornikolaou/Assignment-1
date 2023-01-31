@@ -143,7 +143,7 @@
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>InDevelopment</deploymentStatus>
-    <description>This is suppose to represent the steps that comprise under templates for the different roles that Mainlydigital are recruiting for. Each new Mainlydigital employee must carry out these steps within this object to pass probation.</description>
+    <description>It is used to create a step on an onboarding journey for mainlydigital candidates, from the onboarding template.</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -156,7 +156,7 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Template task</label>
     <nameField>
-        <label>Template task Name</label>
+        <label>Template task name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>

@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Manager_Email__c</fullName>
     <caseSensitive>true</caseSensitive>
+    <description>Stores the email of the manager that is assigned to each Mainlydigital candidate.</description>
     <externalId>false</externalId>
     <label>Manager Email</label>
     <required>true</required>

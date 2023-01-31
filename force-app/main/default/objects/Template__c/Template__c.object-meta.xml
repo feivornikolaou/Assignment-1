@@ -143,7 +143,7 @@
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This is suppose to represent the base object needed to create templates for the different roles that Mainlydigital are recruiting for.</description>
+    <description>This is an onboarding template this is used to build the onboarding journey for each mainlydigital candidate.</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>

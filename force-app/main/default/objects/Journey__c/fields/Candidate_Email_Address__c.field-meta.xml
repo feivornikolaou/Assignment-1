@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Candidate_Email_Address__c</fullName>
     <caseSensitive>true</caseSensitive>
+    <description>Stores Mainlydigital&apos;s candidate email address.</description>
     <externalId>false</externalId>
     <label>Candidate Email Address</label>
     <required>true</required>
