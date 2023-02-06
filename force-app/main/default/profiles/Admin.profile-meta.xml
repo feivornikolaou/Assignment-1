@@ -28,7 +28,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Template_task__c.Task__c</field>
+        <field>Template_task__c.Requirements__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>

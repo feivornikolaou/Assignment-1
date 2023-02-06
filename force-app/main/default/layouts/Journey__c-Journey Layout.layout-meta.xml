@@ -31,6 +31,10 @@
                 <behavior>Required</behavior>
                 <field>Manager_Name__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Template_Name__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

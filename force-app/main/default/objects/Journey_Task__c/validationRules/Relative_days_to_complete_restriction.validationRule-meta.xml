@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relative_days_to_complete_restriction</fullName>
+    <active>true</active>
+    <description>This ensures that the values for the days are not negative numbers.</description>
+    <errorConditionFormula>Relative_Days_to_Complete__c &lt; 1</errorConditionFormula>
+    <errorMessage>INVALID VALUE</errorMessage>
+</ValidationRule>

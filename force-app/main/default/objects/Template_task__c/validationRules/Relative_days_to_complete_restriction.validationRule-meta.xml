@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relative_days_to_complete_restriction</fullName>
+    <active>true</active>
+    <description>This ensures that the values given for the days are not negative numbers. It also puts a restriction on the maximum days required to complete onboarding candidate task, which is an estimate of a 6 months probation period.</description>
+    <errorConditionFormula>OR( Relative_Days_to_Complete__c &lt; 1, Relative_Days_to_Complete__c &gt; 182)</errorConditionFormula>
+    <errorMessage>INVALID VALUE</errorMessage>
+</ValidationRule>

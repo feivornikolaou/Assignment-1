@@ -12,11 +12,15 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Task__c</field>
+                <field>Requirements__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Template__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Relative_Days_to_Complete__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
