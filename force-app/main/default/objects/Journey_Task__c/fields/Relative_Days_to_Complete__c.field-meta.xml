@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Relative_Days_to_Complete__c</fullName>
-    <description>This is the predicted amount of days, relative to each Mainlydigital candidate that they require to successfully complete their onboarding tasks.</description>
+    <description>The predicted amount of days assigned to a candidate for onboarding task completion.</description>
     <externalId>false</externalId>
     <label>Relative Days to Complete</label>
     <precision>18</precision>

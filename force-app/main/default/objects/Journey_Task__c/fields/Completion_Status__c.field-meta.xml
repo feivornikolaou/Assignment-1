@@ -3,7 +3,7 @@
     <fullName>Completion_Status__c</fullName>
     <description>This gives an indication on whether a candidate has completed their task, is in the process of completing or if they are behind, based on the target date that has been set.</description>
     <externalId>false</externalId>
-    <formula>IF(Completed__c == TRUE, &quot;complete&quot;,  IF( Estimated_Completion_Date__c &lt;  TODAY(),&quot;overdue&quot;, &quot;in progress&quot;))</formula>
+    <formula>IF(Completed__c == TRUE, &quot;COMPLETE&quot;,  IF(Estimated_Completion_Date__c &lt;  TODAY(),&quot;OVERDUE&quot;, &quot;IN PROGRESS&quot;))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Completion Status</label>
     <required>false</required>
