@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relative_days_to_complete_restriction</fullName>
+    <active>true</active>
+    <description>This ensures the relative days to complete aren&apos;t altered to less than a day.
+Also, I excluded the restriction of 182 days because this handles changes to the completion day, after the journey(probation) begins and not before.</description>
+    <errorConditionFormula>Relative_Days_to_Complete__c &lt; 1</errorConditionFormula>
+    <errorMessage>Relative days to complete can&apos;t be changed to less than a day</errorMessage>
+</ValidationRule>

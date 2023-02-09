@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completion_Status__c</fullName>
+    <description>This gives an indication on whether a candidate has completed their task, is in the process of completing or if they are behind, based on the target date that has been set.</description>
+    <externalId>false</externalId>
+    <formula>IF(Completed__c == TRUE, &quot;COMPLETE&quot;,  IF(Estimated_Completion_Date__c &lt;  TODAY(),&quot;OVERDUE&quot;, &quot;IN PROGRESS&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Completion Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
