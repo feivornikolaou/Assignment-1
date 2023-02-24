@@ -69,7 +69,7 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>Task__c</fields>
+        <fields>Requirements__c</fields>
         <fields>LAST_ACTIVITY</fields>
         <fields>LAST_UPDATE</fields>
         <fields>CREATED_DATE</fields>

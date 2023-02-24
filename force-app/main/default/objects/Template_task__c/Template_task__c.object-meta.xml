@@ -142,7 +142,7 @@
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <deploymentStatus>InDevelopment</deploymentStatus>
+    <deploymentStatus>Deployed</deploymentStatus>
     <description>It is used to create a step on an onboarding journey for mainlydigital candidates, from the onboarding template.</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>

@@ -142,7 +142,7 @@
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <deploymentStatus>InDevelopment</deploymentStatus>
+    <deploymentStatus>Deployed</deploymentStatus>
     <description>This records information related to the onboarding task progress of each Mainlydigital candidate.</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
