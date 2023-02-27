@@ -61,7 +61,7 @@
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>
-        <fields>ACTIVITY.TASK</fields>
+        <fields>ACTIVITY.TASK</fields> 
         <fields>TASK.DUE_DATE</fields>
         <fields>CORE.USERS.FULL_NAME</fields>
         <fields>TASK.LAST_UPDATE</fields>
@@ -69,7 +69,7 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>Task__c</fields>
+        <fields>Requirements__c</fields>
         <fields>LAST_ACTIVITY</fields>
         <fields>LAST_UPDATE</fields>
         <fields>CREATED_DATE</fields>
